@@ -136,4 +136,4 @@ LOCAL_SRC_FILES := Jni/VAJni.cpp \
 endif
 LOCAL_LDLIBS := -llog -latomic
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
